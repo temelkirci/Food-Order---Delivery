@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D37FBE8-E741-4D7C-B95F-89CB445F8AA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yemek_Sepeti_Temel_KIRCI</RootNamespace>
+    <AssemblyName>Yemek Sepeti-Temel KIRCI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Firma Giris Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma Giris Ekranı.Designer.cs">
+      <DependentUpon>Firma Giris Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ana Ekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana Ekran.Designer.cs">
+      <DependentUpon>Ana Ekran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firma.Designer.cs">
+      <DependentUpon>Firma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri.Designer.cs">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müsteri Giris Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Müsteri Giris Ekrani.Designer.cs">
+      <DependentUpon>Müsteri Giris Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siparis Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siparis Bilgileri.Designer.cs">
+      <DependentUpon>Siparis Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Siparis Ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siparis Ver.Designer.cs">
+      <DependentUpon>Siparis Ver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetici Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yönetici Ekrani.Designer.cs">
+      <DependentUpon>Yönetici Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yönetici.Designer.cs">
+      <DependentUpon>Yönetici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ürün Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ürün Ekle.Designer.cs">
+      <DependentUpon>Ürün Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ürün Güncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ürün Güncelle.Designer.cs">
+      <DependentUpon>Ürün Güncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ürün Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ürün Sil.Designer.cs">
+      <DependentUpon>Ürün Sil.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Firma Giris Ekranı.resx">
+      <DependentUpon>Firma Giris Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ana Ekran.resx">
+      <DependentUpon>Ana Ekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firma.resx">
+      <DependentUpon>Firma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri.resx">
+      <DependentUpon>Musteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Müsteri Giris Ekrani.resx">
+      <DependentUpon>Müsteri Giris Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Siparis Bilgileri.resx">
+      <DependentUpon>Siparis Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siparis Ver.resx">
+      <DependentUpon>Siparis Ver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yönetici Ekrani.resx">
+      <DependentUpon>Yönetici Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yönetici.resx">
+      <DependentUpon>Yönetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ürün Ekle.resx">
+      <DependentUpon>Ürün Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ürün Güncelle.resx">
+      <DependentUpon>Ürün Güncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ürün Sil.resx">
+      <DependentUpon>Ürün Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
