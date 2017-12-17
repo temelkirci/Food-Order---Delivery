@@ -19,3 +19,43 @@ C:\Users\TEMEL\Desktop\Yemek Sepeti-Temel KIRCI\Yemek Sepeti-Temel KIRCI\obj\Deb
 C:\Users\TEMEL\Desktop\Yemek Sepeti-Temel KIRCI\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Güncelle.resources
 C:\Users\TEMEL\Desktop\Yemek Sepeti-Temel KIRCI\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Siparis_Ver.resources
 C:\Users\TEMEL\Desktop\Yemek Sepeti-Temel KIRCI\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Siparis_Bilgileri.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\bin\Debug\Yemek Sepeti-Temel KIRCI.exe.config
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.exe
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.pdb
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\bin\Debug\Yemek Sepeti-Temel KIRCI.exe
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\bin\Debug\Yemek Sepeti-Temel KIRCI.pdb
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.csprojResolveAssemblyReference.cache
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.FirmaGirisEkrani.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Form1.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Firma.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Musteri.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.MusteriGirisEkrani.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Properties.Resources.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Siparis_Bilgileri.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Siparis_Ver.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.YöneticiEkrani.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Yönetici.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Ekle.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Güncelle.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Sil.resources
+C:\Users\TEMEL\Desktop\Food-Order---Delivery-master\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.csproj.GenerateResource.Cache
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\bin\Debug\Yemek Sepeti-Temel KIRCI.exe.config
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.exe
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.pdb
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\bin\Debug\Yemek Sepeti-Temel KIRCI.exe
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\bin\Debug\Yemek Sepeti-Temel KIRCI.pdb
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.csprojResolveAssemblyReference.cache
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.FirmaGirisEkrani.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Form1.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Firma.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Musteri.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.MusteriGirisEkrani.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Properties.Resources.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Siparis_Bilgileri.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Siparis_Ver.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.YöneticiEkrani.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Yönetici.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Ekle.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Güncelle.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek_Sepeti_Temel_KIRCI.Ürün_Sil.resources
+C:\Users\TEMEL\Desktop\Yemek Sepeti\Yemek Sepeti-Temel KIRCI\obj\Debug\Yemek Sepeti-Temel KIRCI.csproj.GenerateResource.Cache

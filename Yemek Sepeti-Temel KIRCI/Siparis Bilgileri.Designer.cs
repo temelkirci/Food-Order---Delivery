@@ -32,6 +32,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label4
@@ -53,6 +54,7 @@
             this.label8.Size = new System.Drawing.Size(127, 21);
             this.label8.TabIndex = 10;
             this.label8.Text = "Toplam Tutar :";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // listView1
             // 
@@ -71,12 +73,22 @@
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 12;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(197, 273);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(16, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "0 ";
+            // 
             // Siparis_Bilgileri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(543, 308);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label8);
@@ -95,5 +107,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

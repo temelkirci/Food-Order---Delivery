@@ -31,7 +31,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
             else
             {
                 SqlConnection temel = new SqlConnection();
-                temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+                temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
 
                 string komut = "insert into Firma(FirmaID , FirmaAd , FirmaKullanıcıAdı , FirmaŞifre , İl , İlçe) values('" + sayi + "','" + textBox1.Text + "' , '" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "')";
                 temel.Open();
@@ -45,8 +45,8 @@ namespace Yemek_Sepeti_Temel_KIRCI
 
         private void button2_Click(object sender, EventArgs e) // firma güncelle
         {
-            SqlConnection temel = new SqlConnection();
-            temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+            SqlConnection temel = new SqlConnection(); // C# ta veritabanına bağlanma
+            temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
             if (textBox6.Text == "" || textBox7.Text == "" || textBox8.Text == "" || textBox9.Text == "")
             {
                 MessageBox.Show("Lütfen tüm alanları doldurunuz ...!");

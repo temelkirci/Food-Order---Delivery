@@ -23,7 +23,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
         private void button2_Click(object sender, EventArgs e) // firma giriş butonu
         {
             SqlConnection temel = new SqlConnection();
-            temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+            temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
             SqlDataAdapter komut = new SqlDataAdapter("Select Count(*) From Firma where FirmaKullanıcıAdı='" + textBox3.Text + "' and FirmaŞifre='" + textBox4.Text + "'", temel);
             
             DataTable dt = new System.Data.DataTable();
@@ -41,7 +41,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
                     firmaid = dr["FirmaID"].ToString();
                 }
 
-                this.Hide();
+                this.Close();
 
                 Firma frm = new Firma();
                 frm.ShowDialog();

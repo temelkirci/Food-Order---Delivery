@@ -13,6 +13,9 @@ namespace Yemek_Sepeti_Temel_KIRCI
 {
     public partial class Ürün_Ekle : Form
     {
+        int firma_id = Convert.ToInt32(FirmaGirisEkrani.firmaid);
+        Firma firm = new Firma();
+
         public Ürün_Ekle()
         {
             InitializeComponent();
@@ -40,20 +43,32 @@ namespace Yemek_Sepeti_Temel_KIRCI
 
         private void button1_Click(object sender, EventArgs e) // ürün ekle butonu
         {
-            Random r = new Random();
-            int sayi;
-            sayi = r.Next(10000);
+            // textbox lar dolu ise eklemeye başla
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            {
 
-            SqlConnection temel = new SqlConnection();
-            temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
-            
-            string komut = "insert into Yemekler(YemekID , YemekAdi , YemekFiyat , YemekAdedi) values('" + sayi + "','" + textBox1.Text + "' , '" + textBox2.Text + "','" + textBox3.Text + "')";
-            temel.Open();
+                Random r = new Random();
+                int sayi;
+                sayi = r.Next(10000); 
 
-            SqlCommand komutsatiri = new SqlCommand(komut,temel);
-            komutsatiri.ExecuteNonQuery();
-            temel.Close();
-            MessageBox.Show("Yemek başarılı bir şekilde eklendi.");
+                SqlConnection temel = new SqlConnection();
+                temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+
+                string komut = "insert into Yemekler(YemekID , YemekAdi , YemekAdedi , YemekFiyat , FirmaID) values('" + sayi + "','" + textBox1.Text + "' , '" + textBox2.Text + "','" + textBox3.Text + "' ,'" + firma_id + "' )";
+                temel.Open();
+
+                SqlCommand komutsatiri = new SqlCommand(komut, temel);
+                komutsatiri.ExecuteNonQuery();
+                temel.Close();
+                MessageBox.Show("Yemek başarılı bir şekilde eklendi.");
+                firm.RefreshYemekBilgileri();
+                
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Bütün alanlar doldurulmak zorundadır.");
+            }
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)

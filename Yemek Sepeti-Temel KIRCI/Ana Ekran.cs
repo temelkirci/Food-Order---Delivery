@@ -28,7 +28,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
 
         private void button1_Click(object sender, EventArgs e) // yönetici girişi
         {
-            temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+            temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
 
             Form1 menü = new Form1();
             menü.Close();

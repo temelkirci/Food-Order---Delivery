@@ -32,7 +32,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
         private void button3_Click(object sender, EventArgs e)
         {
             SqlConnection temel = new SqlConnection();
-            temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+            temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
             SqlDataAdapter komut = new SqlDataAdapter("Select Count(*) From Yönetici where YöneticiKullanıcıAdı='" + textBox5.Text + "' and YöneticiŞifre='" + textBox6.Text + "'", temel);
             DataTable dt = new System.Data.DataTable();
             komut.Fill(dt);

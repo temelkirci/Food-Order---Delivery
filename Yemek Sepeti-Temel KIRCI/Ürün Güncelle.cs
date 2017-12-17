@@ -13,6 +13,8 @@ namespace Yemek_Sepeti_Temel_KIRCI
 {
     public partial class Ürün_Güncelle : Form
     {
+        Firma firm = new Firma();
+
         public Ürün_Güncelle()
         {
             InitializeComponent();
@@ -41,7 +43,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection temell = new SqlConnection();
-            temell.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+            temell.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
 
             temell.Open();
             string komut = "update Yemekler set YemekAdi='"+textBox1.Text+"' , YemekFiyat='"+textBox3.Text+"' , YemekAdedi='"+textBox2.Text+"' where YemekAdi='"+textBox4.Text+"' ";
@@ -50,6 +52,8 @@ namespace Yemek_Sepeti_Temel_KIRCI
             komutsatiri.ExecuteNonQuery();
             temell.Close();
             MessageBox.Show("Yemek başarılı bir şekilde güncellendi.");
+            firm.RefreshYemekBilgileri();
+            this.Close();
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e) // eski yemek adı

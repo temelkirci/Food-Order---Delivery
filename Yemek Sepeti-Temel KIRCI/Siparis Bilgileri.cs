@@ -44,7 +44,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
         public void listview()
         {
             SqlConnection temel = new SqlConnection();
-            temel.ConnectionString = "Data Source = JOKER ; database = YemekSepetiTemelKırcı ; integrated security=true ";
+            temel.ConnectionString = "Data Source = DESKTOP-QE5C51S ; database = YemekSepetiTemelKırcı ; integrated security=true ";
             temel.Open();
             SqlCommand komutt = new SqlCommand("select SiparisAdi , SiparisAdet , SiparisDurum from Siparis where MüsteriID='" + mus_id + "' ", temel);
 
@@ -74,9 +74,7 @@ namespace Yemek_Sepeti_Temel_KIRCI
         private void Siparis_Bilgileri_Load(object sender, EventArgs e)
         {
 
-            listview();
-
-            
+            listview();    
 
         }
 
@@ -86,6 +84,11 @@ namespace Yemek_Sepeti_Temel_KIRCI
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)// listview
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

@@ -53,9 +53,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(24, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Eklenecek Adet :";
+            this.label2.Text = "Yeni Miktarı :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
